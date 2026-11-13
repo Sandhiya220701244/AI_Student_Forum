@@ -1,0 +1,21 @@
+
+
+from django.db import migrations
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('Main', '0010_profile_location'),
+    ]
+
+    operations = [
+        migrations.RemoveField(
+            model_name='profile',
+            name='bio',
+        ),
+        migrations.RemoveField(
+            model_name='profile',
+            name='contact',
+        ),
+    ]

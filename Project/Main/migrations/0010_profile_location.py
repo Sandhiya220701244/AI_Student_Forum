@@ -1,0 +1,18 @@
+
+
+from django.db import migrations, models
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('Main', '0009_auto_20180731_1305'),
+    ]
+
+    operations = [
+        migrations.AddField(
+            model_name='profile',
+            name='location',
+            field=models.TextField(default='Not mentioned'),
+        ),
+    ]
